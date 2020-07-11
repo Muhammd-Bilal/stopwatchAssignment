@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>STOP WATCH</title>
+</head>
+<body>
+    <center>
+        <h1 class="h1stop">STOP WATCH ASSIGNMENT</h1>
+    <div class="col2 container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                <h1 class="h1">Minutes</h1>
+                <h1 class="digits" id="min">00</h1>
+
+
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                <h1>Seconds</h1>
+                <h1 class="digits" id="sec">00</h1>
+
+
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                <h1>MiliSeconds</h1>
+                <h1 class="digits" id="msec">00</h1>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+            <button id="diseble" type="button" class="btn btn-success btn-lg" onclick="start()">Start</button>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                <button type="button" class="btn btn-danger btn-lg" onclick="stop()">Stop</button>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                <button type="button" class="btn btn-primary btn-lg" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+</center>
+    <script src="app.js"></script>
+</body>
+</html>
